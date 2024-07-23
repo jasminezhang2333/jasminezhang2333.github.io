@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Began undergraduate research on road information recognition methods for autonomous driving using Mask R-CNN and Lanenet models. 🚗🛣️
+Began undergraduate research on road information recognition methods for autonomous driving using Mask R-CNN and Lanenet models.
