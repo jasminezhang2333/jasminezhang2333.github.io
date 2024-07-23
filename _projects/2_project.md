@@ -30,10 +30,3 @@ Developed a knowledge graph-based visual question answering (VQA) system that pe
 4. **Visualization and Human-Computer Interaction**  
    Provided knowledge graph visualization and VQA interface visualization, effectively realizing human-computer interaction.
 
-## Demonstration Video
-<div style="text-align: center;">
-  <video width="560" height="315" controls>
-    <source src="{{ 'assets/video/VQA平台.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
