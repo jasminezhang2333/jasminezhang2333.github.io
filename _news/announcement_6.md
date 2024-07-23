@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from Nanjing Normal University with a degree in Automation! 🎓🎉
+Graduated from Nanjing Normal University with a degree in Automation!
