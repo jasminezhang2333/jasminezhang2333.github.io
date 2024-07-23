@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started an internship at Wuxi Zhongke Suhui Automation Technology Co., Ltd. as an algorithm engineer. 👩‍💻🏢
+Started an internship at Wuxi Zhongke Suhui Automation Technology Co., Ltd. as an algorithm engineer.
