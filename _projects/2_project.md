@@ -34,4 +34,3 @@ Developed a knowledge graph-based visual question answering (VQA) system that pe
    Through the knowledge graph, the system could answer questions based on explicit information and provide answers based on implicit knowledge, expanding the application scenarios and scope of the VQA system.
 4. **Visualization and Human-Computer Interaction**  
    Provided knowledge graph visualization and VQA interface visualization, effectively realizing human-computer interaction.
-
