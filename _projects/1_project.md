@@ -35,4 +35,3 @@ The project aims to develop a complex document key information extraction system
 ## Project Outcomes
 
 Achieved an accuracy rate of 95% in invoice extraction, completing project assessment indicators three months ahead of schedule.
-
