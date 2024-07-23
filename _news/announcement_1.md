@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the State Key Laboratory of Millimeter Waves to collaborate with Jiao Fei on 5G communication, filter design, and simulation work. 📡🔬
+Joined the State Key Laboratory of Millimeter Waves to collaborate with Jiao Fei on 5G communication, filter design, and simulation work.
