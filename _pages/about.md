@@ -43,4 +43,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   Hello! I am pursuing my M.S. degree in Computer Science at <a href="https://www.xjtu.edu.cn/">Xi'an Jiaotong University</a>, where I was fortunate to be advised by Yonghong Song. Prior to that, I was a research intern at State Key Laboratory of Millimeter Waves, and did my B.S. in Automation at Nanjing Normal University.
 
 My primary research focus is on key information extraction from complex documents based on pre-trained models. Specifically, my research interests include: (i) designing semi-supervised frameworks to fine-tune pre-trained language models with a small amount of labeled data; (ii) continuously improving the quality of entity and relationship extraction from complex documents through large language models (LLMs).
+
 </div>
