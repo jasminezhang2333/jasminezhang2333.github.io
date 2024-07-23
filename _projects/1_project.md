@@ -31,10 +31,3 @@ The project aims to develop a complex document key information extraction system
 ## Project Outcomes
 Achieved an accuracy rate of 95% in invoice extraction, completing project assessment indicators three months ahead of schedule.
 
-## Demonstration Video
-<div style="text-align: center;">
-  <video width="560" height="315" controls>
-    <source src="{{ 'assets/video/document.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
