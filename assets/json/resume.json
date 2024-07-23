@@ -64,7 +64,13 @@
       "startDate": "2018-09-01",
       "endDate": "2022-06-01",
       "score": "10",
-      "courses": ["Circuit Theory", "Analog Electronics", "Digital Electronics", "Principles of Automatic Control", "Artificial Intelligence and Machine Learning"]
+      "courses": [
+        "Circuit Theory",
+        "Analog Electronics",
+        "Digital Electronics",
+        "Principles of Automatic Control",
+        "Artificial Intelligence and Machine Learning"
+      ]
     }
   ],
   "awards": [
@@ -110,28 +116,13 @@
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Java",
-        "C",
-        "C++",
-        "SQL"
-      ]
+      "keywords": ["Python", "Java", "C", "C++", "SQL"]
     },
     {
       "name": "Tools/Technologies",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "Pytorch",
-        "Tensorflow",
-        "Matplotlib",
-        "NLTK",
-        "LATEX",
-        "Jupyter",
-        "OpenCV"
-      ]
+      "keywords": ["Git", "Pytorch", "Tensorflow", "Matplotlib", "NLTK", "LATEX", "Jupyter", "OpenCV"]
     }
   ],
   "languages": [
@@ -180,7 +171,10 @@
     {
       "name": "Web-Based Intelligent Document Information Extraction System",
       "summary": "Developed a system to extract key information from complex documents, focusing on named entity recognition and entity relationship extraction.",
-      "highlights": ["Utilized multimodal Transformer models such as LayoutLMv3, LiLT, and ERNIE to process documents containing rich text, layout, and visual information, reducing required parameters and overall computational load, and improving model efficiency.", "Fine-tuned pre-trained models on integrated public datasets or user-uploaded private datasets from various domains such as legal, financial, and medical."],
+      "highlights": [
+        "Utilized multimodal Transformer models such as LayoutLMv3, LiLT, and ERNIE to process documents containing rich text, layout, and visual information, reducing required parameters and overall computational load, and improving model efficiency.",
+        "Fine-tuned pre-trained models on integrated public datasets or user-uploaded private datasets from various domains such as legal, financial, and medical."
+      ],
       "startDate": "2024-03-01",
       "endDate": "2024-06-01",
       "url": "https://www.youtube.com/watch?v=H_qhaeu19xo"
@@ -188,7 +182,9 @@
     {
       "name": "Knowledge Graph-Based Visual Question Answering System",
       "summary": "Developed a visual question-answering system based on knowledge graphs, addressing multimodal information tasks.",
-      "highlights": ["Used ZS-VQA structure as the baseline and conducted ablation experiments on different modules. By training different feature mapping spaces (semantic space for relations, object space for supporting entities, and knowledge space for answers), the system more accurately aligned image-question pairs with answers, enhancing question-answering accuracy."],
+      "highlights": [
+        "Used ZS-VQA structure as the baseline and conducted ablation experiments on different modules. By training different feature mapping spaces (semantic space for relations, object space for supporting entities, and knowledge space for answers), the system more accurately aligned image-question pairs with answers, enhancing question-answering accuracy."
+      ],
       "startDate": "2022-09-01",
       "endDate": "2022-12-01",
       "url": "https://youtu.be/gA07GY4li_Q?si=YD9ZgcbrYt2h0LxH"
