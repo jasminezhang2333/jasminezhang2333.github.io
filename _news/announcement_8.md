@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Proposed a semi-supervised learning method for large volumes of documents, designed experiments, and wrote the paper CRMSP. 📄💡
+Proposed a semi-supervised learning method for large volumes of documents, designed experiments, and wrote the paper CRMSP.
