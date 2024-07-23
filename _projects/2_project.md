@@ -9,18 +9,23 @@ giscus_comments: true
 ---
 
 ## Project Name
+
 Knowledge Graph-Based Visual Question Answering System
 
 ## Project Role
+
 Project Leader
 
 ## Project Duration
+
 September 2022 - December 2022
 
 ## Project Description
+
 Developed a knowledge graph-based visual question answering (VQA) system that performs VQA tasks using multimodal information.
 
 ## Technical Implementation
+
 1. **Baseline and Ablation Studies**  
    Implemented the ZS-VQA structure as the baseline and conducted ablation studies on different modules. By training different feature mapping spaces—semantic space for relations, object space for supporting entities, and knowledge space for answers—the system could more accurately align image-question pairs and answers, improving VQA accuracy.
 2. **Evaluation Metrics and Comparative Experiments**  
