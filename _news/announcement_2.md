@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Co-authored a paper with Jiao Fei titled "Balanced-to-unbalanced filtering magic-T based on circular patch resonator with high selectivity." 📚✍️
+Co-authored a paper with Jiao Fei titled "Balanced-to-unbalanced filtering magic-T based on circular patch resonator with high selectivity."
