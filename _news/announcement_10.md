@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Secured a postgraduate recommendation from Xi'an Jiaotong University with the second-highest rank in my major. 🎓🏅
+Secured a postgraduate recommendation from Xi'an Jiaotong University with the second-highest rank in my major.
