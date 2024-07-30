@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem "jekyll", "~> 4.0"
+gem "jekyll", "~> 4.0.0"
 gem 'activesupport', '7.0.4'
 gem "github-pages"
 group :jekyll_plugins do
