@@ -3,7 +3,7 @@ gem "jekyll", "~> 4.0.0"
 gem "kramdown", "~> 2.1"
 gem "liquid", "~> 4.0"
 gem 'activesupport', '7.0.4'
-gem "github-pages"
+gem "github-pages", "~> 224"
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll-archives'
