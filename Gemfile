@@ -23,6 +23,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'faraday-retry', '~> 2.2.0' if ENV["GITHUB_ACTIONS"] != "true"
+    gem 'github-pages', group: :jekyll_pluginsgithub-pages v0
 end
 group :other_plugins do
     gem 'css_parser'
