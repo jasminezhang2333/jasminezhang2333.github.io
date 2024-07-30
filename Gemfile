@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 gem "jekyll", "~> 4.0.0"
+gem "kramdown", "~> 2.1"
+gem "liquid", "~> 2.6.1"
 gem 'activesupport', '7.0.4'
 gem "github-pages"
 group :jekyll_plugins do
