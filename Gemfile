@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem "jekyll", "~> 3.9.5"
+gem "jekyll", "~> 3.9.2"
 gem "kramdown", "~> 2.1"
 gem "liquid", "~> 4.0"
 gem 'activesupport', '7.0.4'
