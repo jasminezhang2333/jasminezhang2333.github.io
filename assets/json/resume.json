@@ -24,6 +24,14 @@
   },
   "work": [
     {
+      "name": "Shanghai Bilibili Technology Co., Ltd.",
+      "position": "Algorithm Engineer",
+      "url": "https://example.com",
+      "startDate": "2024-07-01",
+      "endDate": "2024-09-01",
+      "summary": "Engaged in academic research related to OCR, NLP and large language modeling (LLM), and responsible for the daily maintenance and research and development of the company's core products for video comprehension and content security."
+    },
+    {
       "name": "Wuxi Zhongke Suhui Automation Technology Co., Ltd.",
       "position": "Algorithm Engineer",
       "url": "https://example.com",

@@ -23,19 +23,9 @@
   author    = {Zhang, Qi and Song, Yonghong and Guo, Pengcheng and Hui, Yangyang},
   abstract  = {There is a growing demand in the field of KIE (Key Information Extraction) to apply semi-supervised learning to save manpower and costs, as training document data using fully-supervised methods requires labor-intensive manual annotation. The main challenges of applying SSL in the KIE are (1) underestimation of the confidence of tail classes in the long-tailed distribution and (2) difficulty in achieving intra-class compactness and inter-class separability of tail features. To address these challenges, we propose a novel semi-supervised approach for KIE with Class-Rebalancing and Merged Semantic Pseudo-Labeling (CRMSP). Firstly, the Class-Rebalancing Pseudo-Labeling (CRP) module introduces a reweighting factor to rebalance pseudo-labels, increasing attention to tail classes. Secondly, we propose the Merged Semantic Pseudo-Labeling (MSP) module to cluster tail features of unlabeled data by assigning samples to Merged Prototypes (MP). Additionally, we designed a new contrastive loss specifically for MSP. Extensive experimental results on three well-known benchmarks demonstrate that CRMSP achieves state-of-the-art performance. Remarkably, CRMSP achieves 3.24% f1-score improvement over state-of-the-art on the CORD.},
   year      = {2024},
-  note      = {Submitted to Neurocomputing},
-  pdf       = {CRMSP.pdf},
+  note      = {Revisions submitted to Neurocomputing being processed},
+  pdf       = {NC_v4_Clean.pdf},
   selected  = {true}
-}
-
-@misc{guo2024sre,
-  abbr      = {SRE},
-  author    = {Guo, Pengcheng and Song, Yonghong and Wang, Boyu and Cao, Yankai and Ren, Jiayang and Ji, Chaojie and Liu, Jiahao and Zhang, Qi and Mao, Qiangqiang},
-  title     = {SRE: A Class-missing Semi-supervised Document Key Information Extraction via Synergistic Refinement Estimation},
-  abstract  = {Current methods for document key information extraction (DKIE) rely heavily on labeled data with high annotation costs. To mitigate this issue, semi-supervised learning (SSL) paradigm that utilizes unlabeled document samples, has gained broad attention in DKIE. However, existing SSL methods require labeled and unlabeled data to share identical label space, which is impractical in many DKIE tasks (i.e., some unlabeled samples do not belong to any known classes in the labeled set). In this paper, we formulate this problem as class-missing semi-supervised (CMSS) DKIE. In DKIE, unknown classes usually belong to minority and fine-grained categories, intensifying the misconnections between known and unknown classes and making CMSS more challenging. To address this issue, we propose Synergistic Refinement Estimation (SRE), a progressive prototype estimation scheme that alleviates the unknown classes bias to the majority known classes on long-tailed unlabeled data. Furthermore, dynamic threshold hash rectification and structural calibration mechanisms are proposed to correct connections between fine-grained classes. Extensive experimental results demonstrate that SRE surpasses existing state-of-the-art methods on two DKIE benchmarks. Code is available at https://github.com/anonymoulink/SRE DKIE.},
-  year      = {2024},
-  note      = {Submitted to IEEE Transactions on Knowledge and Data Engineering},
-  pdf       = {SRE_TKDE.pdf}
 }
 
 @misc{guo2024plbr,
@@ -44,16 +34,6 @@
   title     = {PLBR: A Semi-supervised Document Key Information Extraction via Pseudo-labeling Bias Rectification},
   abstract  = {Document key information extraction (DKIE) methods often require a large number of labeled samples, imposing substantial annotation costs in practical scenarios. Fortunately, pseudo-labeling based semi-supervised learning (PSSL) algorithms provide an effective paradigm to alleviate the reliance on labeled data by leveraging unlabeled data. However, the main challenges for PSSL in DKIE tasks: 1) context dependency of DKIE results in incorrect pseudo-labels. 2) high intra-class variance and low inter-class variation on DKIE. To this end, this paper proposes a similarity matrix Pseudo-Label Bias Rectification (PLBR) semi-supervised method for DKIE tasks, which improves the quality of pseudo-labels on DKIE benchmarks with rare labels. More specifically, the Similarity Matrix Bias Rectification (SMBR) module is proposed to improve the quality of pseudo-labels, which utilizes the contextual information of DKIE data through the analysis of similarity between labeled and unlabeled data. Moreover, a dual branch adaptive alignment (DBAA) mechanism is designed to adaptively align intra-class variance and alleviate inter-class variation on DKIE benchmarks, which is composed of two adaptive alignment ways. One is the intra-class alignment branch, which is designed to adaptively align intra-class variance. The other one is the inter-class alignment branch, which is developed to adaptively alleviate inter-class variance changes on the representation level. Extensive experiment results on two benchmarks demonstrate that PLBR achieves state-of-the-art performance and its performance surpasses the previous SOTA by 2.11%~2.53%, 2.09%~2.49% F1-score on FUNSD and CORD with rare labeled samples, respectively. Code will be open to the public.},
   year      = {2024},
-  note      = {Submitted to IEEE Transactions on Knowledge and Data Engineering},
+  note      = {Accepted by IEEE Transactions on Knowledge and Data Engineering},
   pdf       = {PLBR_TKDE.pdf}
-}
-
-@misc{lin2024gmmorph,
-  abbr      = {GMmorph},
-  author    = {Lin, Hao and Song, Yonghong and Li, Fei and Zhang, Qi and Pe, Bincheng},
-  title     = {GMmorph: Dynamic Spatial Matching Registration Model for 3D Medical Image based on Gated Mamba},
-  abstract  = {Medical image registration plays a crucial role in precise planning for radiotherapy, as well as in tasks such as image fusion and medical image analysis. Deep learning registration methods have been widely employed due to their excellent registration efficiency. However, most existing models exhibit limitations in terms of spatial matching and anatomical feature extraction between image pairs, resulting in insufficient registration accuracy and robustness towards abnormal tissues. To address this issue, we propose a dual-branch registration model architecture from the perspectives of spatial matching and feature extraction. Specifically, our approach includes: (1) Designing the Dynamic Matching module (DMM) to perform deformable and dynamic spatial matching, which generates learnable offsets based on real-time information flow in the upper and lower branches, thus promoting flexibility in searching for optimal positions; (2) Introducing the Gated Mamba Layer (GML) to achieve global feature extraction, and using channel and spatial attention to design the Detailed Enhancement Module (DEM) for enhancing local detailed features. The combination of these two modules forms the Coarse-to-Fine Feature Extraction Module (CFFEM), enabling the retrieval of coarse and fine features. Furthermore, an implicit regularization is achieved through a consistency loss, which encourages the network to balance high accuracy, low folding rate, and robustness. Our model demonstrates excellent performance in both single-modal and multi-modal image registration in semi-supervised and unsupervised modes, as validated by comparisons with various stateof-the-art methods on the IXI, OASIS, and Brats2021 datasets.},
-  year      = {2024},
-  note      = {Submitted to Knowledge-Based Systems},
-  pdf       = {KNOSYS-D-24-03551.pdf}
 }
