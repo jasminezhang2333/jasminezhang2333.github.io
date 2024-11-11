@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper was accepted by Electronics Letters!
+Our paper was accepted by _Electronics Letters_!

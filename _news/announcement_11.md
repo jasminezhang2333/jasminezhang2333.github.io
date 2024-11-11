@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Bilibili in Shanghai as an NLP Algorithm Intern for a three-month internship!
+Joined _Bilibili_ in Shanghai as an NLP Algorithm Intern for a three-month internship!
