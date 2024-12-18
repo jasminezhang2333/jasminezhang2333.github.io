@@ -17,23 +17,25 @@
   selected={true}
 }
 
-@misc{zhang2024crmsp,
-  abbr      = {CRMSP},
-  title     = {CRMSP: A Semi-supervised Approach for Key Information Extraction with Class-Rebalancing and Merged Semantic Pseudo-Labeling},
-  author    = {Zhang, Qi and Song, Yonghong and Guo, Pengcheng and Hui, Yangyang},
-  abstract  = {There is a growing demand in the field of KIE (Key Information Extraction) to apply semi-supervised learning to save manpower and costs, as training document data using fully-supervised methods requires labor-intensive manual annotation. The main challenges of applying SSL in the KIE are (1) underestimation of the confidence of tail classes in the long-tailed distribution and (2) difficulty in achieving intra-class compactness and inter-class separability of tail features. To address these challenges, we propose a novel semi-supervised approach for KIE with Class-Rebalancing and Merged Semantic Pseudo-Labeling (CRMSP). Firstly, the Class-Rebalancing Pseudo-Labeling (CRP) module introduces a reweighting factor to rebalance pseudo-labels, increasing attention to tail classes. Secondly, we propose the Merged Semantic Pseudo-Labeling (MSP) module to cluster tail features of unlabeled data by assigning samples to Merged Prototypes (MP). Additionally, we designed a new contrastive loss specifically for MSP. Extensive experimental results on three well-known benchmarks demonstrate that CRMSP achieves state-of-the-art performance. Remarkably, CRMSP achieves 3.24% f1-score improvement over state-of-the-art on the CORD.},
-  year      = {2024},
-  note      = {Accepted by Neurocomputing},
-  pdf       = {NC_v4_Clean.pdf},
-  selected  = {true}
+@article{zhang2024crmsp,
+  title={CRMSP: A semi-supervised approach for key information extraction with Class-Rebalancing and Merged Semantic Pseudo-Labeling},
+  author={Zhang, Qi and Song, Yonghong and Guo, Pengcheng and Hui, Yangyang},
+  journal={Neurocomputing},
+  pages={128907},
+  year={2024},
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0925231224016783},
+  pdf={CRMSP_NC.pdf},
+  selected={true}
 }
 
-@misc{guo2024plbr,
-  abbr      = {PLBR},
-  author    = {Guo, Pengcheng and Song, Yonghong and Wang, Boyu and Liu, Jiaohao and Zhang, Qi},
-  title     = {PLBR: A Semi-supervised Document Key Information Extraction via Pseudo-labeling Bias Rectification},
-  abstract  = {Document key information extraction (DKIE) methods often require a large number of labeled samples, imposing substantial annotation costs in practical scenarios. Fortunately, pseudo-labeling based semi-supervised learning (PSSL) algorithms provide an effective paradigm to alleviate the reliance on labeled data by leveraging unlabeled data. However, the main challenges for PSSL in DKIE tasks: 1) context dependency of DKIE results in incorrect pseudo-labels. 2) high intra-class variance and low inter-class variation on DKIE. To this end, this paper proposes a similarity matrix Pseudo-Label Bias Rectification (PLBR) semi-supervised method for DKIE tasks, which improves the quality of pseudo-labels on DKIE benchmarks with rare labels. More specifically, the Similarity Matrix Bias Rectification (SMBR) module is proposed to improve the quality of pseudo-labels, which utilizes the contextual information of DKIE data through the analysis of similarity between labeled and unlabeled data. Moreover, a dual branch adaptive alignment (DBAA) mechanism is designed to adaptively align intra-class variance and alleviate inter-class variation on DKIE benchmarks, which is composed of two adaptive alignment ways. One is the intra-class alignment branch, which is designed to adaptively align intra-class variance. The other one is the inter-class alignment branch, which is developed to adaptively alleviate inter-class variance changes on the representation level. Extensive experiment results on two benchmarks demonstrate that PLBR achieves state-of-the-art performance and its performance surpasses the previous SOTA by 2.11%~2.53%, 2.09%~2.49% F1-score on FUNSD and CORD with rare labeled samples, respectively. Code will be open to the public.},
-  year      = {2024},
-  note      = {Accepted by IEEE Transactions on Knowledge and Data Engineering},
-  pdf       = {PLBR_TKDE.pdf}
+@article{guo2024plbr,
+  title={PLBR: A Semi-supervised Document Key Information Extraction via Pseudo-labeling Bias Rectification},
+  author={Guo, Pengcheng and Song, Yonghong and Wang, Boyu and Liu, Jiaohao and Zhang, Qi},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2024},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/10654529},
+  pdf={PLBR_TKDE.pdf},
+  selected={true}
 }
